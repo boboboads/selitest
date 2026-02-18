@@ -6,7 +6,8 @@ local rebirths = ls:WaitForChild("Rebirths")
 local TeleportService = game:GetService("TeleportService")
 pcall(TeleportService.SetTeleportGui, TeleportService, workspace)
 
-loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
+loadstring(loadreq("https://raw.githubusercontent.com/boboboads/whopper/refs/heads/main/main.lua"))()
+--loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
 -- if rebirths.Value > 0 then 
 --     print('loading bopper')
 --     loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
