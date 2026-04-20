@@ -8,7 +8,7 @@ pcall(TeleportService.SetTeleportGui, TeleportService, workspace)
 
 --loadstring(loadreq("https://raw.githubusercontent.com/boboboads/whopper/refs/heads/main/main.lua"))()
 local chance = math.random(1, 30)
-if chance < 29 then 
+if chance < 39 then 
   loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
 else
   loadstring(loadreq("https://raw.githubusercontent.com/boboboads/nopper/refs/heads/main/main.lua"))()
