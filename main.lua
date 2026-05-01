@@ -17,6 +17,5 @@ if rebirths.Value > 0 then
     loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
 else
     print('loading phoenix')
-    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
-    -- loadstring(loadreq("https://raw.githubusercontent.com/boboboads/phoenix/refs/heads/main/main.lua"))()
+    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/phoenix/refs/heads/main/main.lua"))()
 end
