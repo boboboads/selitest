@@ -14,8 +14,8 @@ local rebirths = ls:WaitForChild("Rebirths")
 -- end
 if rebirths.Value > 0 then 
     print('loading bopper')
-    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopper/refs/heads/main/main.lua"))()
+    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopperwop/refs/heads/main/main.lua"))()
 else
     print('loading phoenix')
-    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/phoenix/refs/heads/main/main.lua"))()
+    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/phoenixwop/refs/heads/main/main.lua"))()
 end
