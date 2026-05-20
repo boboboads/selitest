@@ -1,7 +1,14 @@
 print('loaded seli controller')
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer or Players.PlayerAdded:Wait()
-local ls = player:WaitForChild("leaderstats")
+local ls = player:WaitForChild("leaderstats", 10)
+
+if not ls then
+    print('loading bopper')
+    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopperwop/refs/heads/main/main.lua"))()  
+    return
+end
+    
 local rebirths = ls:WaitForChild("Rebirths")
 --local TeleportService = game:GetService("TeleportService")
 
