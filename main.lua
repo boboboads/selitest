@@ -5,7 +5,7 @@ local ls = player:WaitForChild("leaderstats", 10)
 
 if not ls then
     print('loading bopper')
-    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopperwop/refs/heads/main/main.lua"))()  
+    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/byebye/refs/heads/main/main.lua"))()  
     return
 end
     
@@ -21,7 +21,7 @@ local rebirths = ls:WaitForChild("Rebirths")
 -- end
 if rebirths.Value > 0 then 
     print('loading bopper')
-    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/bopperwop/refs/heads/main/main.lua"))()
+    loadstring(loadreq("https://raw.githubusercontent.com/boboboads/byebye/refs/heads/main/main.lua"))()
 else
     print('loading phoenix')
     loadstring(loadreq("https://raw.githubusercontent.com/boboboads/phoenixwop/refs/heads/main/main.lua"))()
